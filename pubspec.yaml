@@ -1,0 +1,33 @@
+name: dogecoin_fun
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^1.1.7+1
+  url_launcher: ^6.0.3
+  flutter_launcher_icons: ^0.9.0
+  xml: ^5.1.0
+  http: ^0.13.1
+  http_client: ^1.5.1
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/doge_logo.png
+    - assets/doge_logo_175.png
+    - assets/doge_logo_245.png
+    - assets/icon_doge.png
+    - assets/the_king_doge.png
