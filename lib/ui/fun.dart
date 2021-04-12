@@ -16,19 +16,19 @@ class _FunState extends State<Fun> {
       body: Stack(
         alignment: AlignmentDirectional.topStart,
         children: <Widget>[
-          Padding(
-            padding: EdgeInsets.fromLTRB(24, 0, 24, 0),
-            child: Text(
-              "Fun",
-              style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.amber),
-            ),
-          ),
           Center(
             child: ListView(
               children: <Widget>[
+                Padding(
+                  padding: EdgeInsets.fromLTRB(24, 0, 24, 0),
+                  child: Text(
+                    "Fun",
+                    style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.amber),
+                  ),
+                ),
                 Padding(
                   padding: EdgeInsets.fromLTRB(24, 0, 24, 0),
                   child: Text(

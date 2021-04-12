@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.black,
         body: Center(
             child: Padding(
-          padding: EdgeInsets.fromLTRB(0, 75, 0, 0),
+          padding: EdgeInsets.fromLTRB(0, 35, 0, 0),
           child: MyStateHome(),
         )),
       ),
